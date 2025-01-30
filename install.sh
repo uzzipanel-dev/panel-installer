@@ -29,9 +29,9 @@ set -e
 #                                                                                    #
 ######################################################################################
 
-export GITHUB_SOURCE="Production"
+export GITHUB_SOURCE="main"
 export SCRIPT_RELEASE="canary"
-export GITHUB_BASE_URL="https://raw.githubusercontent.com/uzzi-installer/uzzi-installer"
+export GITHUB_BASE_URL="https://raw.githubusercontent.com/uzzipanel-dev/panel-installer/main/install.sh"
 
 LOG_PATH="/var/log/uzzi-installer.log"
 
